@@ -4,7 +4,7 @@
 #
 Name     : xdotool
 Version  : 3.20160805.1
-Release  : 2
+Release  : 3
 URL      : https://github.com/jordansissel/xdotool/releases/download/v3.20160805.1/xdotool-3.20160805.1.tar.gz
 Source0  : https://github.com/jordansissel/xdotool/releases/download/v3.20160805.1/xdotool-3.20160805.1.tar.gz
 Summary  : No detailed summary available

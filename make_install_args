@@ -1,1 +1,1 @@
-PREFIX=/usr
+PREFIX=/usr INSTALLLIB=/usr/lib64 INSTALLMAN=/usr/share/man

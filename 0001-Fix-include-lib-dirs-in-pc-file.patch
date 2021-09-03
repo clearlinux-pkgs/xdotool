@@ -1,0 +1,22 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Patrick McCarty <patrick.mccarty@intel.com>
+Date: Fri, 3 Sep 2021 10:20:04 -0700
+Subject: [PATCH] Fix include/lib dirs in pc file
+
+Signed-off-by: Patrick McCarty <patrick.mccarty@intel.com>
+---
+ libxdo.pc | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/libxdo.pc b/libxdo.pc
+index 6e4c09c..1f61ed3 100644
+--- a/libxdo.pc
++++ b/libxdo.pc
+@@ -1,5 +1,5 @@
+-libdir=/usr/local/lib
+-includedir=/usr/local/include
++libdir=/usr/lib64
++includedir=/usr/include
+ 
+ Name: libxdo
+ Description: fake keyboard/mouse input, window management, and more
